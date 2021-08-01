@@ -1,10 +1,7 @@
 # RealWorld
 
 ```bash
-# 安装依赖
-npm install
-
-# 启动开发服务
-npm run dev
+# website
+1.117.102.223:3000
 ```
 
