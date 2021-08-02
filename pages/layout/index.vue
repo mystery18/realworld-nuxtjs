@@ -79,6 +79,22 @@ export default {
   computed: {
     ...mapState(["user"]),
   },
+  head() {
+    return {
+      title: `TGIF - RealWorld` ,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description", //最好和name一样
+          name: "description",
+          content: `Thank God It's Friday`,
+        },
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/images/favicon.ico' }
+      ]
+    };
+  },
 };
 </script>
 
